@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<title>PawPrints Print History: Welcome</title>
+	<link href="https://gus.baylor.edu/print_history/css/main2.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="https://gus.baylor.edu/print_history/css/admin.css" media="screen" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript">
+		function toggle(id)
+		{
+			row=document.getElementById('row'+id);
+			box=document.getElementById('box'+id);
+			rowclassname=row.className;
+			if (rowclassname.search(/highlight/)>0)
+			{
+				row.className='row';
+				box.checked='';    	
+			}
+			else
+			{
+				row.className='row highlight';
+				box.checked='true';
+			}				
+		}
+	</script>
+	
+</head>
+
+<body>
+	<div id="header" class="adminheader">
+		<h3>PawPrints Requests Center</h3>
+		<div id="tab_container">
+		    <ul id="tabs">
+				<li><a href="?" class="current">Open Requests</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="Wrapper">
+		<div id="msg" class="<br />
+<b>Notice</b>:  Undefined variable: msgactions in <b>C:\Inetpub\print_history\admin\index.php</b> on line <b>179</b><br />
+hidden">
+			<ul>
+				<br />
+<b>Notice</b>:  Undefined variable: msgactions in <b>C:\Inetpub\print_history\admin\index.php</b> on line <b>182</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>C:\Inetpub\print_history\admin\index.php</b> on line <b>182</b><br />
+			</ul>
+		</div>
+		<p>Here are all of the "open" requests, <b>oldest</b> first. Evaluate the number of pages, reason, etc., and choose your action. You may send a customized response along with your decision as well as refund a custom number of pages.</p>
+		<form name="requestsform" action="./index.php" method="POST">
+			<div class="fix_width">
+				<div class="Container">
+					<div>
+						<div class="pdate_container">
+							<span class="pdate">TUESDAY, 28 OCTOBER</span>
+							<ul>
+								<li class="summary"><span class="bigpages">2</span> pages being requested by <b>labdev</b> in 2 jobs. request id = 1</li>
+								<div class="indent">
+									<li class="reason">Need more pages!!!!!!!!</li>
+									<li>
+										<a class="row">
+											<div class="ptime">12:45pm</div>
+											<div class="pdoc">http://www.baylor.edu/ (2-sided)</div>
+											<div class="pprinter">MoodyLabB_2sided</div>
+											<div class="ppages">Cps: 1</div>
+											<div class="ppages">Pgs: 1</div>
+											<div class="pbal">-77</div>
+										</a>
+									</li>
+									<li>
+										<a class="row">
+											<div class="ptime">12:44pm</div>
+											<div class="pdoc">http://www.baylor.edu/ (2-sided)</div>
+											<div class="pprinter">MoodyLabA_2sided</div>
+											<div class="ppages">Cps: 1</div>
+											<div class="ppages">Pgs: 1</div>
+											<div class="pbal">-76</div>
+										</a>
+									</li>
+									<li><input type="radio" name="requests[1][action]" value="Approve">Approve  (Use standard reply?<input type="checkbox" name="requests[1][stndApproveMsg]" checked> # of Pages? <input type="text" name="requests[1][pages]" size="3" value="2">)</li>
+									<li><input type="radio" name="requests[1][action]" value="Deny">Deny  (<input type="checkbox" name="requests[1][notifyDeny]" checked>Notify patron?)</li>
+									<li><input type="radio" name="requests[1][action]" value="Email">Email patron with:<br/><textarea name="requests[1][requestMsg]" rows="4" cols="80" onfocus="this.style.backgroundColor='#FFF5C5'; if(this.innerHTML == 'Denial Note, Custom Approval Message, or email body.') this.innerHTML = ''" onblur="this.style.backgroundColor=''">Denial Note, Custom Approval Message, or email body.</textarea></li>
+									<li><input type="radio" name="requests[1][action]" value="" checked>No action</li>
+									<input type="hidden" name="requests[1][username]" value="labdev" />
+									<br clear="all">
+								</div>
+							</ul>
+							<br clear="left" />
+							<input type="submit" value="Commit Changes">
+						</div>
+					</div>
+				</div><br><br>
+			<div class="Container">
+				<div>
+					<div class="pdate_container">
+						<span class="pdate">THURSDAY, 20 NOVEMBER</span>
+						<ul>
+							<li class="summary"><span class="bigpages">1</span> pages being requested by <b>joseph_rafferty</b> in 1 jobs. request id = 3</li>
+							<div class="indent">
+								<li class="reason">ryjdtyjdty</li>
+								<li>
+									<a class="row">
+										<div class="ptime">9:43am</div>
+										<div class="pdoc">Test Page</div>
+										<div class="pprinter">BDSCDenA_2sided</div>
+										<div class="ppages">Cps: 1</div>
+										<div class="ppages">Pgs: 1</div>
+										<div class="pbal">287</div>
+									</a>
+								</li>
+								<li>
+									<input type="radio" name="requests[3][action]" value="Approve">
+									Approve  (Use standard reply?
+									<input type="checkbox" name="requests[3][stndApproveMsg]" checked>
+									 # of Pages? <input type="text" name="requests[3][pages]" size="3" value="1">)
+								</li>
+								<li>
+									<input type="radio" name="requests[3][action]" value="Deny">
+									Deny  (
+									<input type="checkbox" name="requests[3][notifyDeny]" checked>
+									Notify patron?)
+								</li>
+								<li>
+									<input type="radio" name="requests[3][action]" value="Email">
+									Email patron with:<br>
+									<textarea name="requests[3][requestMsg]" rows="4" cols="80" onfocus="this.style.backgroundColor='#FFF5C5'; if(this.innerHTML == 'Denial Note, Custom Approval Message, or email body.') this.innerHTML = ''" onblur="this.style.backgroundColor=''">
+									Denial Note, Custom Approval Message, or email body.</textarea>
+								</li>
+								<li><input type="radio" name="requests[3][action]" value="" checked>No action</li>
+								<input type="hidden" name="requests[3][username]" value="joseph_rafferty" />
+								<br clear="all">
+							</div>
+						
+							<hr>
+							
+							<li class="summary"><span class="bigpages">4</span> pages being requested by <b>Matt_Hansen</b> in 1 jobs. request id = 4</li>
+							<div class="indent">
+								<li class="reason">THIS IS A TEST. I love this layout. It's very sleek and looks great. Is it not supposed to show the print jobs I made today?</li>
+								<li>
+									<a class="row">
+										<div class="ptime">10:44pm</div>
+										<div class="pdoc">Listening%20Report</div>
+										<div class="pprinter">Martin</div>
+										<div class="ppages">Cps: 1</div>
+										<div class="ppages">Pgs: 4</div>
+										<div class="pbal">326</div>
+									</a>
+								</li>
+								<li><input type="radio" name="requests[4][action]" value="Approve">Approve  (Use standard reply?<input type="checkbox" name="requests[4][stndApproveMsg]" checked> # of Pages? <input type="text" name="requests[4][pages]" size="3" value="4">)</li>
+								<li><input type="radio" name="requests[4][action]" value="Deny">Deny  (<input type="checkbox" name="requests[4][notifyDeny]" checked>Notify patron?)</li>
+								<li><input type="radio" name="requests[4][action]" value="Email">Email patron with:<br><textarea name="requests[4][requestMsg]" rows="4" cols="80" onfocus="this.style.backgroundColor='#FFF5C5'; if(this.innerHTML == 'Denial Note, Custom Approval Message, or email body.') this.innerHTML = ''" onblur="this.style.backgroundColor=''">Denial Note, Custom Approval Message, or email body.</textarea></li>
+								<li><input type="radio" name="requests[4][action]" value="" checked>No action</li>
+								<input type="hidden" name="requests[4][username]" value="Matt_Hansen" />
+								<br clear="all">
+							</div>
+						</ul>
+						<br clear="left" />
+						<input type="submit" value="Commit Changes">
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+</div>
+</form>
+</div>
+</body>
+</html>

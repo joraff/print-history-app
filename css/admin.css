@@ -1,0 +1,45 @@
+div#header {
+	background: #E75500;
+}
+
+.bigpages {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li.summary {
+	text-decoration: underline;
+}
+
+.row:hover {
+	background: #EEEEEE;
+}
+
+hr {
+	width: 99%;
+	height: 2px;
+	color: #E75500;
+	background-color: #E75500;
+	border: 0;
+}
+
+li.reason {
+	font-style: italic;
+}
+
+div.indent {
+	margin-left: 20px;
+}
+
+div.hideaway {
+	padding-left: 20px;
+	background: url();
+}
+
+div.Container {
+	position: relative;
+	background: #fff;
+	margin: 12px 10px;
+	text-align: left;
+	min-width: 910px;
+}

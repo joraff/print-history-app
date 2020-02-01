@@ -1,0 +1,304 @@
+body {
+	font-family: lucida grande, verdana, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+html, body {
+	background: #E5E5E5;
+}
+
+a { text-decoration: none; color: #000;}
+
+div#header {
+	background: #009933;
+}
+div#header div#tab_container, h3 {
+	width: 925px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#header div#tab_container h3 {
+  margin: 0 auto;
+  padding-left: 34px;
+}
+
+h3 { padding: 10px;}
+
+#tab_container {
+	margin: 0;
+	height: 27px;
+	padding: 0;
+}
+
+#tab_container ul {
+	margin: 0; padding: 0;
+}
+
+#tab_container li {
+	margin: 0; padding: 0;
+	display: inline;
+	list-style: none;
+	border: none;
+}
+
+#tab_container ul#tabs {
+  float: left;
+  width: 610px;
+}
+
+#tab_container ul#account_links {
+  float: right;
+  width: 300px;
+  text-align: right;
+  font-size: 10px;
+  color: #F0D1B2;
+  margin-right: 10px;
+}
+
+div#tab_container a:link,
+div#tab_container a:visited {
+	color: #fff;
+}
+
+#tab_container a:hover {
+	color: #fff;
+	background: #333;
+  text-decoration: none;
+}
+
+#tab_container ul#tabs a:link, #tab_container ul#tabs a:visited {
+  float: left; /* for IE6 */
+	font-size: 12px;
+	font-weight: normal;
+	padding: 3px 8px 9px 8px;
+	margin: 0;
+}
+
+#tab_container ul#account_links li {
+  margin-left: 5px;
+}
+
+#tab_container ul#account_links a:link,
+#tab_container ul#account_links a:visited {
+  font-size: 11px;
+  font-weight: normal;
+  padding: 2px;
+}
+
+#tab_container ul#account_links a:hover {
+  text-decoration: none;
+}
+
+#tab_container ul#tabs a:link.current, #tab_container ul#tabs a:visited.current {
+	background: #e5e5e5 url(/images/tab-bg.gif) top repeat-x;
+	border: 1px solid #e5e5e5;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+  margin: 0 5px;
+}
+
+#tab_container ul#account_links a:link.current, #tab_container ul#account_links a:visited.current {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+#tab_container ul#account_links a:hover.current {
+  color: #fff;
+  background: none;
+}
+
+h1 {
+	font-size: 16px;
+
+}
+
+p {
+	padding: 20px;
+	width: 90%;
+	text-align: left;
+}
+div#Container {
+	position: relative;
+	background: #fff;
+	margin: 12px auto 0 auto;
+	text-align: left;
+	min-width: 910px;
+}
+
+div.pdate_container {
+	padding: 20px 0 10px 0;
+	width: 100%
+}
+
+div.pheader {
+	width: 100%;
+	font-size: 10px;
+	font-weight: bold;
+	background: #edf3fe;
+	padding: 7px 0 4px 0;
+	border-bottom: 1px solid #d9dfe9;
+}
+
+div.pheader div {
+	float: left;
+}
+
+.pheader ul {
+	margin: 0; padding: 0;
+}
+
+.pheader ul li {
+	margin: 0; padding: 0;
+	list-style: none;
+	clear: left;
+	padding: 0 20px;
+}
+
+.pheader ul li a {
+	width: 100%;
+}
+
+.pheader ul li a div {
+	height: 16px;
+}
+
+span.pdate {
+	color: #777;
+	font-size: 10px;
+	font-weight: 700;
+	text-align: left;
+	padding: 2px 5px 2px 30px;
+	border-bottom: 1px solid #777;
+}
+
+.pdate_container ul {
+	margin: 0; padding: 0;
+	margin-top:10px;
+}
+
+.pdate_container ul li {
+	list-style: none;
+	margin: 10px 20px;
+	margin-bottom: 4px;
+	height: 16px;
+}
+
+.pdate_container ul li input {
+	display: inline;
+}
+
+.pdate_container ul li a {
+	margin-bottom: 4px;
+	width: 100%;
+	display: inline;
+}
+
+.pdate_container ul li div {
+	float: left;
+	height: 16px;
+}
+
+.pcheck {
+	width: 3%;
+}
+.ptime {
+	width: 8%;
+}
+.pdoc {
+	width: 52%;
+}
+.pprinter {
+	width: 22%;
+}
+.ppages {
+	width: 5%;
+}
+.pbal {
+	width: 3%;
+}
+.disabledrow {
+	background: #EEEEEE;
+	color: #606060;
+}
+.highlight {
+	background: #FFF5C5;
+}
+#msg {
+	width: 600px;
+	margin: 20px auto 0 auto;
+	padding: 10px;
+}
+.success {
+	background: #D3FFCE;
+	border: 1px solid #2F7927;
+}
+.error {
+	background: #FFDDDD;
+	border: 1px solid #A30404;
+}
+.hidden {
+	display: none;
+}
+.histlink {
+	display: inline;
+	color: grey;
+	font-weight: bold;
+}
+div#header {
+	background: #E75500;
+}
+
+.bigpages {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li.summary {
+	text-decoration: underline;
+}
+
+hr {
+	width: 99%;
+	height: 2px;
+	color: #E75500;
+	background-color: #E75500;
+	border: 0;
+}
+
+li.reason {
+	font-style: italic;
+	padding: 5px 0 0 0;
+}
+
+div.indent {
+	margin-left: 20px;
+}
+
+div.hideaway {
+	padding-left: 20px;
+	background: url();
+}
+
+div.Container {
+	position: relative;
+	background: #fff;
+	margin: 12px 10px;
+	text-align: left;
+	min-width: 910px;
+}
+
+div.jobsContainer li {
+	margin-top: 2px;
+	padding: 2px;
+	background-color: #E6E6E6;
+	border: 1px solid #D4D4D4;
+}
+div.jobsContainer li div{
+}
